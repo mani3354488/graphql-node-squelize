@@ -1,4 +1,4 @@
-cosnt { gql } = require('apollo-server-express');
+const { gql } = require('apollo-server-express');
 
 const rootType = gql`
 type Query {
